@@ -3,8 +3,8 @@ var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'phaser-example', { preload:
 
 function preload() {
 
-    game.load.image('lazur', 'images/pics/thorn_lazur.png');
-    game.load.spritesheet('mummy', 'images/sprites/metalslug_mummy37x45.png', 37, 45, 18);
+    game.load.image('lazur', '../images/pics/thorn_lazur.png');
+    game.load.spritesheet('mummy', '../images/sprites/metalslug_mummy37x45.png', 37, 45, 18);
 
 }
 
